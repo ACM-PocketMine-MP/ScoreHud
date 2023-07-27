@@ -88,7 +88,6 @@ class Utils{
 				$plugin->getLogger()->error("ScoreHud plugin will only work if you use the plugin phar from Poggit. [Missing: $name virion]");
 				$plugin->getServer()->getPluginManager()->disablePlugin($plugin);
 				$return = false;
-
 				break;
 			}
 		}
